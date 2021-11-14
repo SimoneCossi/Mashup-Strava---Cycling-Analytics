@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 // STRAVA
 
-var stravaKey = "Bearer a8756fe42b2aed464a40b8e82b35b5bf811ec5ee";
+var stravaKey = "Bearer e4b5a04502a1bd2d1b48807d6232dbfbfbe6f03e";
 var stravaResult = httpGet("https://www.strava.com/api/v3/athlete", stravaKey);
 
 // Eliminazione dei caratteri inutili
@@ -15,11 +15,11 @@ for(var a = 0; a < stravaDataSplit.length; a++)
 {
     var b;
     b = stravaDataSplit[a].split(":");
-    document.getElementById("stravaTable").innerHTML += '<tr><td style="font-weight:600">'+b[0]+'</td><td style="padding-left: 15%!important;">'+b[1]+'</td></tr>';
+    document.getElementById("stravaTable").innerHTML += '<tr><td style="font-weight:600">'+b[0]+'</td><td class="attributi">'+b[1]+'</td></tr>';
 
     // Condizione per andare a inserire le informazioni utili all'interno del mashup
     if(a > 2 && a < 9){
-        document.getElementById("mashupTable").innerHTML += '<tr><td style="font-weight:600">'+b[0]+'</td><td style="padding-left: 20%!important;">'+b[1]+'</td></tr>';
+        document.getElementById("mashupTable").innerHTML += '<tr><td style="font-weight:600">'+b[0]+'</td><td class="attributi">'+b[1]+'</td></tr>';
     }
 }
 
@@ -40,11 +40,12 @@ for(var a = 0; a < cyclingDataSplit.length; a++)
 {
     var b;
     b = cyclingDataSplit[a].split(":");
-    document.getElementById("cyclingTable").innerHTML += '<tr><td style="font-weight:600">'+b[0]+'</td><td style="padding-left: 15%!important;">'+b[1]+'</td></tr>';
+    document.getElementById("cyclingTable").innerHTML += '<tr><td style="font-weight:600">'+b[0]+'</td><td class="attributi">'+b[1]+'</td></tr>';
 
     // Condizione per andare a inserire le informazioni utili all'interno del mashup
     if(a == 0 || (a > 2 && a < 6)){
-        document.getElementById("mashupTable").innerHTML += '<tr><td style="font-weight:600">'+b[0]+'</td><td style="padding-left: 20%!important;">'+b[1]+'</td></tr>';    }
+        document.getElementById("mashupTable").innerHTML += '<tr><td style="font-weight:600">'+b[0]+'</td><td class="attributi">'+b[1]+'</td></tr>'; 
+    }
 }
 
 

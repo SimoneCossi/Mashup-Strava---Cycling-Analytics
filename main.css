@@ -4,24 +4,28 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     padding: 3%;
-    min-width: 1000px;
 }
 
 .box {
     background-color: rgb(243, 243, 243);
     border-radius: 20px;
-    /*padding: 15px;*/
-    padding: 5%
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-right: 20px;
 }
 
 .sopra {
     vertical-align: top;
-    /*padding: 20px;*/
     padding: 2%;
     
 }
 
 td {
-    /*padding: 5px;*/
     padding: 1%;
+}
+
+.attributi {
+    padding-left: 15%;
+    min-width: 130px;
 }
