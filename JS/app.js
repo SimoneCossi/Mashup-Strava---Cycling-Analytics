@@ -3,7 +3,8 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////
 // STRAVA
 
-var stravaKey = "Bearer e4b5a04502a1bd2d1b48807d6232dbfbfbe6f03e";
+                        // SOSTITUIRE QUI SOTTO IL CODICE NUOVO
+var stravaKey = "Bearer 694c7b6470462407bc75a6bf9925f7d563c984f0";
 var stravaResult = httpGet("https://www.strava.com/api/v3/athlete", stravaKey);
 
 // Eliminazione dei caratteri inutili
