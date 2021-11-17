@@ -4,7 +4,7 @@
 // STRAVA
 
                         // SOSTITUIRE QUI SOTTO IL CODICE NUOVO
-var stravaToken = "Bearer 3e962dc7e4fd0db8b23882a035ea9424360761d";
+var stravaToken = "Bearer 3e962dc7e4fd0db8b23882a035ea9424360761dc";
 StravaFunction(stravaToken);
 
 //FUNZIoNE CHE SVOLGE IL LAVORO DI LETTURA E INSERIMENTO DEI DATI
