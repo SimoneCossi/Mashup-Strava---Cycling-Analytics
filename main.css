@@ -29,3 +29,12 @@ td {
     padding-left: 15%;
     min-width: 130px;
 }
+
+input{
+    width: 300px;
+    border-radius:20px;
+    border: 0;
+    background-color: rgb(243, 243, 243);
+    padding: 8px;
+}
+
