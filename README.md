@@ -24,7 +24,7 @@ Progetto d'esame universitario del corso di Reti di Calcolatori
 
 ------------
 
-- Specific:
+- Specifica:
   
   Scrivere un programma, con interfaccia web, che metta in relazione i dati di un utente STrava con i dati di un utente Cycling Analytics.
 
