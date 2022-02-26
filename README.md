@@ -13,6 +13,10 @@ To do this, two fictitious identities can be created (one per app) and then proc
 
 
 
+
+
+
+
 # Mashup Strava <-> Cycling Analytics
 Progetto d'esame universitario del corso di Reti di Calcolatori
 
