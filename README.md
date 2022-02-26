@@ -7,7 +7,8 @@ University exam project for the Computer Networks course
 
 - Specific:
 > Write a program, with a web interface, that relates the data of a Strava user to the data of a Cycling Analytics user.
-To do this, two fictitious identities can be created (one per app) and then proceed with the mashup.
+
+> To do this, two fictitious identities can be created (one per app) and then proceed with the mashup.
 
 > Used accounts have been deleted.
 
